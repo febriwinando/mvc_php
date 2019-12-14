@@ -1,0 +1,134 @@
+body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-color: #000;
+}
+
+h3{   
+      font-weight: bold;
+      color: #fff;
+}
+
+table td{
+      color: #fff;
+      font-weight: 100;
+      background: #1a171736;
+}
+.navbar a{
+      color: #fff;
+}
+      
+      .back{
+            float: right;
+            background: #1a171736;
+            border: 0.1px solid #1a171736;
+            color: #fff;
+            border-radius: 5px;
+      }
+
+      .list-group-item{
+            background: #1a171736;
+            color: #fff;
+            border: none;
+            border-bottom: 0.009px solid #ffffff5e;
+            padding-bottom: 2px;
+            padding-top: 2px;
+      }
+      .container-fluid{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            position: absolute;
+      }
+      
+      .col-sm-8{
+            box-sizing: border-box;
+            margin: 0 auto;
+            top: 150px;
+      }
+
+            .col-sm-8 ul{
+                  margin: 0;
+                  padding: 0;
+            }
+            .col-sm-8 ul li{
+                  display: inline-block;
+            }
+
+      .login{
+            background: red;
+      }
+
+            .login tr{
+                  box-sizing: border-box;
+            }
+
+            .login td{
+                  box-sizing: border-box;
+                  padding: 3px;
+            }
+
+      .log{
+	      min-width: 30px;
+		max-width: 200px;
+		background:#0000005d;
+		padding:10px;
+            color: #fff;
+            border: none;
+            font-weight: 100;
+            border-radius: 5px;
+	}
+
+	.form[type=text], .form[type=password]{
+            width: 100%;
+            font-weight: 100;
+            border-radius: 5px;
+            padding: 5px 7px;
+            display: inline-block;
+            border: 1px solid #fff3;
+            box-sizing: border-box;
+            color: #fff;
+            text-align: center;
+            background: #0000005d;
+      }
+      
+      footer{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            bottom: 10px;
+            font-style: italic;
+      }
+
+      .btn-profile{
+            background-color: #fff;
+            border:none;
+            padding: 0;
+            margin-left: 10px;
+            border-radius: 50%;
+      }
+
+            .dropdown-menu ul{
+                  list-style-type: none;
+                  margin: 0;
+                  margin-left: -20px;
+            }
+
+            .dropdown-menu ul li{
+                  padding: 0;
+                  margin-bottom: 0;
+                  font-size: 12px;
+            }
+
+/*      @media(max-width: 360px){
+            body{
+                  background-image: url(http://localhost/fix/public/images/msunrise.jpg);
+            }
+      }      */ 
